@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Piano</title>
+</head>
+
+<body>
+    <h1 id="title">Piano</h1>
+    <div class="container">
+        <div class="piano-container">
+            <div class="keys white" id="C">C<sup></div>
+            <div class="keys black" id="C#">C#</div>
+            <div class="keys white" id="D">D</div>
+            <div class="keys black" id="D#">D#</div>
+            <div class="keys white margin-exclusion" id='E' >E</div>
+            <div class="keys white" id="F">F</div>
+            <div class="keys black" id="F#">F#</div>
+            <div class="keys white" id="G">G</div>
+            <div class="keys black" id="G#">G#</div>
+            <div class="keys white" id="A">A</div>
+            <div class="keys black" id="A#">A#</div>
+            <div class="keys white" id="B">B</div>
+        </div>
+    </div>
+
+
+        <select onchange="changeFolder()" id="selectBox">
+            <option value="softPiano">Soft Piano</option>
+            <option value="grandPiano">Grand Piano</option>
+            <option value="bell">Bell Piano</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
